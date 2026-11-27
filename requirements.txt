@@ -1,0 +1,2 @@
+# Runtime uses only Python standard-library modules.
+# Optional static analysis: bandit>=1.7.9

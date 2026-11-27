@@ -1,0 +1,23 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_duplicate_registration_rejected (test_security.ApplicationTests.test_duplicate_registration_rejected) ... ok
+test_register_and_login (test_security.ApplicationTests.test_register_and_login) ... ok
+test_sql_injection_username_is_rejected (test_security.ApplicationTests.test_sql_injection_username_is_rejected) ... ok
+test_malformed_hash_is_rejected (test_security.PasswordTests.test_malformed_hash_is_rejected) ... ok
+test_password_verification (test_security.PasswordTests.test_password_verification) ... ok
+test_same_password_gets_different_salts (test_security.PasswordTests.test_same_password_gets_different_salts) ... ok
+test_username_validation (test_security.ValidationTests.test_username_validation) ... ok
+test_weak_password_rejected (test_security.ValidationTests.test_weak_password_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.961s
+
+OK
